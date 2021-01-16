@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" />
+    <link href="images" rel="stylesheet" />
+    <title>Test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="catalog">
+        <div class="catalog1">
+            <img src="images/img1.png" alt="Парикмахерское кресло">
+            <p>Парикмахерское кресло «Норм» гидравлическое</p>
+            <p class="price">9900 р.</p>
+            <a href="#" class="popup__button popup__button_open">Купить</a>
+        </div>
+        <div class="catalog1">
+            <img src="images/img1.png" alt="Парикмахерское кресло">
+            <p>Парикмахерское кресло «Норм» гидравлическое</p>
+            <p class="price">9900 р.</p>
+            <a href="#" class="popup__button popup__button_open">Купить</a>
+        </div>
+        <div class="catalog1">
+            <img src="images/img1.png" alt="Парикмахерское кресло">
+            <p>Парикмахерское кресло «Норм» гидравлическое</p>
+            <p class="price">9900 р.</p>
+            <a href="#" class="popup__button popup__button_open">Купить</a>
+        </div>
+        <div class="catalog1">
+            <img src="images/img1.png" alt="Парикмахерское кресло">
+            <p>Парикмахерское кресло «Норм» гидравлическое</p>
+            <p class="price">9900 р.</p>
+            <a href="#" class="popup__button popup__button_open">Купить</a>
+        </div>
+    </div>
+    
+    <div class="popup popup_hide">
+        <div class="popup__body ">
+            <div class="popup-head">
+                <div class="catalog3">
+                    
+                    <form action="send.php" method="post">
+                        <input type="text" name="fio" placeholder="Имя" required>
+                        <input type="text" name="fio" placeholder="Телефон" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="text" name="fio" placeholder="Название товара" required>
+                        <input type="submit" value="Отправить">
+                    </form> 
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="out"></div>
+    <script src="script.js"></script>
+    <script src="data-json.js"></script>
+</body>
+
+</html>
