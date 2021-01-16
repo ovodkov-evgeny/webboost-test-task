@@ -99,7 +99,7 @@ body {
     flex-wrap: wrap;
 }
 
-.catalog1 {
+.catalog__item {
     text-align: center;
     margin: 0 5px;
     width: 185px;
